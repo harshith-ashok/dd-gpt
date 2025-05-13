@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage.vue'
 import LoginPage from './pages/LoginPage.vue'
 import LandingPage from './pages/LandingPage.vue'
 import NewPrompt from './pages/NewPrompt.vue'
+import NewShard from './pages/NewShard.vue'
 
 const routes = [
   { path: '/', component: HomePage, meta: { requiresAuth: true } },
@@ -22,6 +23,7 @@ const routes = [
       llm: route.query.llm,
     }),
   },
+  { path: '/new-shard', component: NewShard },
 ]
 
 const router = createRouter({
