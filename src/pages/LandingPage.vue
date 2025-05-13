@@ -12,7 +12,7 @@ const login = () => {
   <div class="h-screen flex flex-col justify-center items-center gap-10">
     <div class="font-bold text-8xl text-center">
       Browser-Based Sandbox for <br />
-      Building GPT Versions
+      Building LLM ✨Shards✨
     </div>
     <button
       @click="login"
